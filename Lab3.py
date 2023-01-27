@@ -1,6 +1,4 @@
 import math
-import time
-start_time = time.time()
 x= int(input("Введите число х: "))
 for i in range(1,x+1,2) :
     flag = False
@@ -15,4 +13,3 @@ for i in range(1,x+1,2) :
                 break
         if flag : 
             break
-print("--- %s seconds ---" % (time.time() - start_time))
