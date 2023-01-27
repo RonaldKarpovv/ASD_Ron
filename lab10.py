@@ -1,3 +1,4 @@
+#nlog2n
 def sort(nums):
     if len(nums)==1:
         return nums
