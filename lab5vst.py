@@ -1,5 +1,5 @@
+#o(n2)
 import random
-
 
 def insertion_sort(nums): 
     for i in range(1, len(nums)): # Рассматриваем массив от 2 элемента
