@@ -5,7 +5,6 @@ def HashFunction(s):
     result = result % 32
     return result
 
-
 def insert(mas, line):
     key = HashFunction(line)
     if mas[key] != []:
